@@ -1,0 +1,10 @@
+print('Proporciona los siguientes datos de un libro: ')
+nombre = input('Introduce el nombre: ')
+id = int(input('Introduce el ID: '))
+precio = float(input('Introduce el precio: '))
+envio =  input('Indica si el envio es gratuito (True/False): ')
+
+print(f'Nombre: {nombre}')
+print(f'Id: {id}')
+print(f'Precio: {precio}')
+print(f'Envio Gratuito?: {envio}')
